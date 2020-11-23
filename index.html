@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600&display=swap" rel="stylesheet">     
+        <link rel ="stylesheet" href = "css/file.css">
+        <title>Task Application</title>
+    </head>
+    <body>
+        <!--title of the application-->
+        <h1 class = "title">Task Application</h1>
+
+        <!-- the popup box-->
+        <div class = "overlay">
+            <div class = "popup">
+                <header class = "header-error">
+                    <span class = 'text-alert'>Error Log</span>
+                    <span class = "close">x</span>
+                </header>
+                <div class = 'content-error'>
+                    <p class = 'error-msg'>Sorry the field can't not be empty type something</p>
+                </div>
+            </div>
+        </div>
+        <!-- the app -->
+        <div class = "container">
+            <div class = "task-box">
+                <input type = "text" class = "input-task" placeholder = "Type Your Task Here!!">
+                <span class = "btn-add"><span>+</span></span>
+            </div>
+            <div class = "task-container">
+                
+            </div>
+            <div class ="status">
+                <span class = "tasks">tasks:<span class = 'result-tasks'>5</span></span>
+                <span class = "compelete">compeleted:<span class = "result-compelete">0</span></span>
+            </div>
+        </div>
+        <script src = "js/file.js"></script>
+    </body>
+</html>
